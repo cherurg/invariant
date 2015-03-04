@@ -3,8 +3,14 @@
   var hello;
 
   hello = function() {
-    print('test');
-    return print('hello');
+    var a, results;
+    a = 10;
+    results = [];
+    while (a--) {
+      console.log('test');
+      results.push(console.log('hello'));
+    }
+    return results;
   };
 
   hello();

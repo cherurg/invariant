@@ -5,11 +5,13 @@
 Метод принимает два аргумента: граф в виде матрицы и вершину, до которой нужно найти минимальный путь.
 
 	    hello = ->
-	        print 'test'
+	    	a = 10
+	    	while a--
+	        	console.log 'test'
         
 Тест
         
-        	print 'hello'
+        		console.log 'hello'
 
 Тест
 
