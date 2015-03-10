@@ -1,0 +1,14 @@
+{
+  "name": "dz2",
+  "version": "1.0.0",
+  "description": "Домашнее задание написано на literate coffeescript. Файл с расширением litcoffee является полноценной программой, которую можно запустить в node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "coffee -lc index.litcoffee & node index.js"
+  }
+}
