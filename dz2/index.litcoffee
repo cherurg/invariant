@@ -157,8 +157,8 @@
     console.log("\nExpected result:")
     console.log expected
 
-    ###
-    Real result:
+
+###Real result:
 [ [ 0, 3, 3, 0, 0, 0 ],
   [ -3, 0, 0, 2, 1, 0 ],
   [ -3, 0, 0, 0, 3, 0 ],
